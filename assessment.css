@@ -76,8 +76,6 @@ blockquote {
   color:white;
 }
 
-
-
 body > ul > li:first-child::after {
   content: "";
 
