@@ -7,6 +7,11 @@
 .subjectHeader {
   color: teal;
   font-family: sans-serif;
+  padding: 5px;
+}
+
+p {
+  padding:5px;
 }
 
 body {
@@ -32,6 +37,7 @@ table {
   border: 3px solid teal;
   border-radius: 10px;
   border-collapse: collapse;
+  margin: 5px;
 
 }
 
@@ -40,7 +46,7 @@ th {
   justify-content: center;
   font-weight: bold;
   color: red;
-  padding:5px;
+  padding:5px 15px;
 }
 
 td {
@@ -55,6 +61,7 @@ ul ul li {
 }
 
 ul {
+  margin: 5px;
   list-style-type: none;
 }
 
@@ -69,9 +76,7 @@ blockquote {
   color:white;
 }
 
-.https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg {
-  opacity: 25%;
-}
+
 
 body > ul > li:first-child::after {
   content: "";
@@ -120,4 +125,8 @@ body > ul > li > img {
 
 ul > li > ol > li:first-child {
   font-weight: bold;
+}
+
+input {
+  margin: 5px;
 }
